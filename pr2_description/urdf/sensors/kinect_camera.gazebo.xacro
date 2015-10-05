@@ -3,7 +3,7 @@
   
 <xacro:macro name="kinect_camera_gazebo_v0" params="name">
   <gazebo reference="${name}_frame">
-    <sensor type="depth" name="${name}_frame_sensor">
+    <!--sensor type="depth" name="${name}_frame_sensor">
       <always_on>true</always_on>
       <update_rate>20.0</update_rate>
       <camera>
@@ -40,8 +40,8 @@
         <focalLength>0</focalLength>
         <hackBaseline>0</hackBaseline>
       </plugin>
-    </sensor>
-    <sensor type="depth" name="${name}_frame_sensor">
+    </sensor-->
+    <!--sensor type="depth" name="${name}_frame_sensor">
       <always_on>true</always_on>
       <update_rate>20.0</update_rate>
       <camera>
@@ -78,7 +78,7 @@
         <focalLength>0</focalLength>
         <hackBaseline>0</hackBaseline>
       </plugin>
-    </sensor>
+    </sensor-->
   </gazebo>
 
 </xacro:macro>
